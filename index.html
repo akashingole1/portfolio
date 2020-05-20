@@ -16,6 +16,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- Font Awesome JS -->
     <script
@@ -40,7 +47,7 @@
           <div style="padding: 40px 40px;">
             <img
               style="border-radius: 50%;"
-              src="/images/profile.jpg"
+              src="images/profile.jpg"
               width="150px"
               height="150px"
             />
@@ -100,10 +107,10 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <span>PORTFOLIO</span>
+              <span class="teal fs-20">PORTFOLIO</span>
               <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Resume</a>
@@ -116,24 +123,27 @@
         <main>
           <section id="about">
             <h2>ABOUT</h2>
-
-            <p>I have 1+ years of experience in web development.</p>
-            <p>
-              The technologies I have worked on are React Js, React Native and
-              Node Js, Mongo DB.
-            </p>
-            <p>I do have a knowledge of MySQL am a Vue Js beginner.</p>
-
-            <ul>
-              <li>See my Github repositories at github.com/akashingole1</li>
-              <li>
-                See my Hackerrank profiles at
-                https://www.hackerrank.com/akashingole1?hr_r=1
-              </li>
-              <li>
-                Feel free to contact me directly at akashingole1@gmail.com
-              </li>
-            </ul>
+            <div class="container">
+              <div style="background: #fff; padding: 10px;" class="row">
+                <div class="col-md-12" style="color: royalblue;">
+                  <h3>Hi, I am Akash,</h3>
+                </div>
+                <div class="col-md-12">
+                  <h6>
+                    I am currently working as Associate Software Engineer at
+                    TechAhead.
+                  </h6>
+                  <h6>I have 1+ years of experience in web development.</h6>
+                  <h6>
+                    The technologies I work on are React Js, React Native, Node
+                    Js and Mongo DB.
+                  </h6>
+                  <h6>
+                    I do have knowledge of MySQL and I am a Vue Js beginner.
+                  </h6>
+                </div>
+              </div>
+            </div>
           </section>
 
           <div class="line"></div>
@@ -141,22 +151,30 @@
           <section id="experience">
             <h2>EXPERIENCE</h2>
             <div
-              class="my-5"
+              class="my-4"
               style="
                 background: white;
                 width: 700px;
-                min-height: 400px;
+                min-height: 300px;
                 margin: 10px auto;
                 box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
               "
             >
               <div class="container">
-                <div class="row" style="padding: 30px 0px 0px 30px;">
+                <div
+                  class="row"
+                  style="
+                    padding: 30px 0px 0px 30px;
+                    color: royalblue;
+                    font-size: 20px;
+                    font-weight: 500;
+                  "
+                >
                   <div class="col-lg-6">TechAhead</div>
                   <div class="col-lg-6">Associate Software Engineer</div>
                 </div>
                 <div class="project-line"></div>
-                <div>
+                <div class="pb-1">
                   <ul>
                     <li>Worked on multiple web applications</li>
                     <li>
@@ -179,18 +197,31 @@
             </div>
 
             <div
+              class="my-4"
               style="
                 background: white;
                 width: 700px;
-                min-height: 400px;
+                min-height: 300px;
                 margin: 10px auto;
                 box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
               "
             >
               <div class="container">
-                <div class="row" style="padding: 30px 0px 0px 30px;">
-                  <div class="col-lg-6">LeewayHertz</div>
-                  <div class="col-lg-6">Software Developer</div>
+                <div
+                  class="row"
+                  style="
+                    padding: 30px 0px 0px 30px;
+                    color: royalblue;
+                    font-size: 20px;
+                    font-weight: 500;
+                  "
+                >
+                  <div class="col-lg-6">
+                    LeewayHertz
+                  </div>
+                  <div class="col-lg-6">
+                    Software Developer
+                  </div>
                 </div>
                 <div class="project-line"></div>
                 <div>
@@ -206,6 +237,41 @@
                       Used Bootstrap and Material UI for frontend develoment
                     </li>
                     <li>Wrote modular components</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div
+              style="
+                background: white;
+                width: 700px;
+                min-height: 300px;
+                margin: 10px auto;
+                box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+              "
+            >
+              <div class="container">
+                <div
+                  class="row"
+                  style="
+                    padding: 30px 0px 0px 30px;
+                    color: royalblue;
+                    font-size: 20px;
+                    font-weight: 500;
+                  "
+                >
+                  <div class="col-lg-6">Primotech</div>
+                  <div class="col-lg-6">Web Development Intern</div>
+                </div>
+                <div class="project-line"></div>
+                <div>
+                  <ul>
+                    <li>Made responsive webpages for company's Website</li>
+                    <li>
+                      Got to learn phases of product development, meeting
+                      etiquettes
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -399,21 +465,28 @@
               "
             >
               <div class="container">
-                <div class="row" style="padding: 30px 0px 0px 30px;">
+                <div
+                  class="row"
+                  style="
+                    padding: 30px 0px 0px 30px;
+                    font-size: 20px;
+                    font-weight: 500;
+                  "
+                >
                   <div class="col-sm-12">HTML</div>
                 </div>
                 <div class="project-line"></div>
                 <div class="row text-center">
                   <div class="col-md-3">
-                    <img src="/images/html.png" width="70px" />
-                    <p>HTML</p>
+                    <img src="images/html.png" width="70px" />
+                    <p class="font-weight-normal">HTML</p>
                   </div>
                   <div class="col-md-3">
-                    <img src="/images/jsx.png" width="100px" />
+                    <img src="images/jsx.png" width="100px" />
                     <p>JSX</p>
                   </div>
                   <div class="col-md-3">
-                    <img src="/images/jade.png" width="100px" />
+                    <img src="images/jade.png" width="100px" />
                     <p style="margin-top: 19px;">Jade</p>
                   </div>
                 </div>
@@ -430,17 +503,24 @@
               "
             >
               <div class="container">
-                <div class="row" style="padding: 30px 0px 0px 30px;">
+                <div
+                  class="row"
+                  style="
+                    padding: 30px 0px 0px 30px;
+                    font-size: 20px;
+                    font-weight: 500;
+                  "
+                >
                   <div class="col-sm-12">CSS</div>
                 </div>
                 <div class="project-line"></div>
                 <div class="row text-center">
                   <div class="col-md-3">
-                    <img src="/images/CSS.3.svg" width="60px" />
+                    <img src="images/CSS.3.svg" width="60px" />
                     <p>CSS3</p>
                   </div>
                   <div class="col-md-3">
-                    <img src="/images/bootstrap.png" width="60px" />
+                    <img src="images/bootstrap.png" width="60px" />
                     <p style="margin-top: 24px;">Bootstrap</p>
                   </div>
                 </div>
@@ -457,21 +537,28 @@
               "
             >
               <div class="container">
-                <div class="row" style="padding: 30px 0px 0px 30px;">
+                <div
+                  class="row"
+                  style="
+                    padding: 30px 0px 0px 30px;
+                    font-size: 20px;
+                    font-weight: 500;
+                  "
+                >
                   <div class="col-sm-12">JavaScript</div>
                 </div>
                 <div class="project-line"></div>
                 <div class="row text-center">
                   <div class="col-md-3">
-                    <img src="/images/reactjs.png" width="100px" />
+                    <img src="images/reactjs.png" width="100px" />
                     <p>React</p>
                   </div>
                   <div class="col-md-3">
-                    <img src="/images/js.png" width="70px" />
+                    <img src="images/js.png" width="70px" />
                     <p>JavaScript</p>
                   </div>
                   <div class="col-md-3">
-                    <img src="/images/nodejs.png" width="100px" />
+                    <img src="images/nodejs.png" width="100px" />
                     <p style="margin-top: 15px;">Node</p>
                   </div>
                 </div>
@@ -488,17 +575,24 @@
               "
             >
               <div class="container">
-                <div class="row" style="padding: 30px 0px 0px 30px;">
+                <div
+                  class="row"
+                  style="
+                    padding: 30px 0px 0px 30px;
+                    font-size: 20px;
+                    font-weight: 500;
+                  "
+                >
                   <div class="col-sm-12">Back-End</div>
                 </div>
                 <div class="project-line"></div>
                 <div class="row text-center">
                   <div class="col-md-3">
-                    <img src="/images/mysql.jpeg" width="70px" />
+                    <img src="images/mysql.jpeg" width="70px" />
                     <p>MySQL</p>
                   </div>
                   <div class="col-md-3">
-                    <img src="/images/Mongodb.png" width="150px" />
+                    <img src="images/Mongodb.png" width="150px" />
                     <p style="margin-top: 20px;">MongoDB</p>
                   </div>
                 </div>
@@ -515,25 +609,32 @@
               "
             >
               <div class="container">
-                <div class="row" style="padding: 30px 0px 0px 30px;">
+                <div
+                  class="row"
+                  style="
+                    padding: 30px 0px 0px 30px;
+                    font-size: 20px;
+                    font-weight: 500;
+                  "
+                >
                   <div class="col-sm-12">Other</div>
                 </div>
                 <div class="project-line"></div>
                 <div class="row text-center">
                   <div class="col-md-3">
-                    <img src="/images/github.png" width="70px" />
+                    <img src="images/github.png" width="70px" />
                     <p>GitHub</p>
                   </div>
                   <div class="col-md-3">
-                    <img src="/images/bitbucket.png" width="70px" />
+                    <img src="images/bitbucket.png" width="70px" />
                     <p>Bitbucket</p>
                   </div>
                   <div class="col-md-3">
-                    <img src="/images/gitlab.png" width="70px" />
+                    <img src="images/gitlab.png" width="70px" />
                     <p style="margin-top: 7px;">GitLab</p>
                   </div>
                   <div class="col-md-3 my-3">
-                    <img src="/images/slack.png" width="100px" />
+                    <img src="images/slack.png" width="100px" />
                     <p style="margin-top: 32px;">Slack</p>
                   </div>
                 </div>
@@ -545,30 +646,141 @@
 
           <section id="awards">
             <h2>AWARDS</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h5>Academic</h5>
+                  Awarded with the Merit Scholarship for 2 consecutive years
+                  2013-14 and 2014-15 at Modern Academy School, Indirapuram.
+
+                  <h5 class="mt-3">Sports</h5>
+                  Taken part in various sports competition at school level like
+                  football, basketball and running.
+                </div>
+              </div>
+            </div>
           </section>
 
           <div class="line"></div>
 
           <section id="education">
             <h2>EDUCATION</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div
+                    style="
+                      background: white;
+                      width: 400px;
+                      min-height: 200px;
+                      margin: 10px auto;
+                      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+                      padding: 10px 0px 0px 10px;
+                    "
+                  >
+                    <p class="teal fw-500">
+                      Dr. A.P.J. Abdul Kalam Technical University
+                    </p>
+                    <p class="brown fw-400">Lucknow</p>
+                    <ul>
+                      <li>BTech in Computer Science and Engineering</li>
+                      <li>Passed with honours (76.8 %)</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div
+                    style="
+                      background: white;
+                      width: 400px;
+                      min-height: 200px;
+                      margin: 10px auto;
+                      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+                      padding: 10px 0px 0px 10px;
+                    "
+                  >
+                    <p class="teal fw-500">Modern Academy</p>
+                    <p class="brown fw-400">Indirapuram, Ghaziabad</p>
+                    <ul>
+                      <li>12th</li>
+                      <li>91.6%</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div
+                    style="
+                      background: white;
+                      width: 400px;
+                      min-height: 200px;
+                      margin: 10px auto;
+                      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+                      padding: 10px 0px 0px 10px;
+                    "
+                  >
+                    <p class="teal fw-500">Modern Academy</p>
+                    <p class="brown fw-400">Indirapuram, Ghaziabad</p>
+                    <ul>
+                      <li>10th</li>
+                      <li>84.5%</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="line"></div>
+
+          <section id="contact">
+            <h2>CONTACT</h2>
+            <div class="container pt-3">
+              <p>
+                <a
+                  href="mailto:akashingole1@gmail.com"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Email Akash"
+                  class="btn btn-primary mr-3"
+                  ><i class="fa fa-envelope"></i
+                ></a>
+                <a href="mailto:akashingole1@gmail.com" class="fs-18 black"
+                  >akashingole1@gmail.com</a
+                >
+              </p>
+              <p>
+                <a
+                  href="https://github.com/akashingole1"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="View Akash on GitHub"
+                  class="btn btn-primary mr-3"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="https://github.com/akashingole1" class="fs-18 black"
+                  >github.com/akashingole1</a
+                >
+              </p>
+              <p>
+                <a
+                  href="https://www.linkedin.com/in/akash-ingole-6b8b6a141/"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="View Akash on linkedin"
+                  class="btn btn-primary mr-3"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/akash-ingole-6b8b6a141/"
+                  class="fs-18 black"
+                  >linkedin.com/in/akash-ingole-6b8b6a141/</a
+                >
+              </p>
+            </div>
           </section>
         </main>
       </div>
@@ -602,6 +814,12 @@
           $(".collapse.in").toggleClass("in");
           $("a[aria-expanded=true]").attr("aria-expanded", "false");
         });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
       });
     </script>
   </body>

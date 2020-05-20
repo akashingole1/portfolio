@@ -50,7 +50,12 @@ a:focus {
   width: 100%;
   height: 1px;
   border-bottom: 1px solid #ddd;
-  margin: 30px 0;
+  margin: 20px 0;
+}
+
+h2 {
+  color: #555;
+  font-weight: 300;
 }
 
 /* ---------------------------------------------------
@@ -69,9 +74,7 @@ a:focus {
   left: 0;
   height: 100vh;
   z-index: 999;
-  /* background: #7386d5; */
   background: rgba(145, 13, 13, 0.8);
-  /* background: rgb(0, 128, 115); */
   color: #fff;
   transition: all 0.3s;
 }
@@ -82,7 +85,6 @@ a:focus {
 
 #sidebar .sidebar-header {
   padding: 20px;
-  /* background: #6d7fcc; */
   background: rgba(145, 13, 13, 0.8);
 }
 
@@ -140,17 +142,6 @@ ul.CTAs a {
   display: block;
   border-radius: 5px;
   margin-bottom: 5px;
-}
-
-a.download {
-  background: #fff;
-  background: rgba(145, 13, 13, 0.8);
-}
-
-a.article,
-a.article:hover {
-  background: rgba(145, 13, 13, 0.8);
-  color: #fff !important;
 }
 
 /* ---------------------------------------------------
@@ -223,6 +214,33 @@ a.article:hover {
   color: #fff;
 }
 
+/* ---------------------------------------------------
+    CARD CONTENT
+----------------------------------------------------- */
+.teal {
+  color: teal;
+}
+.brown {
+  color: #795548;
+}
+.black {
+  color: black;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+p > a:hover {
+  text-decoration: underline;
+}
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
