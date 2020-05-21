@@ -44,9 +44,9 @@
       <!-- Sidebar  -->
       <nav id="sidebar">
         <a href="#">
-          <div style="padding: 40px 40px;">
+          <div class="pd-40">
             <img
-              style="border-radius: 50%;"
+              class="br-50"
               src="images/profile.jpg"
               width="150px"
               height="150px"
@@ -59,28 +59,28 @@
         </div>
 
         <ul class="list-unstyled components">
-          <li class="active">
+          <li class="nav-item active">
             <a href="#about">About</a>
           </li>
-          <li>
+          <li class="nav-item">
             <a href="#experience">Experience</a>
           </li>
-          <li>
+          <li class="nav-item">
             <a href="#projects">Projects</a>
           </li>
-          <li>
+          <li class="nav-item">
             <a href="#skills">Skills</a>
           </li>
-          <li>
+          <li class="nav-item">
             <a href="#awards">Awards</a>
           </li>
-          <li>
+          <li class="nav-item">
             <a href="#education">Education</a>
           </li>
-          <li>
+          <li class="nav-item">
             <a href="#contact">Contact</a>
           </li>
-          <li>
+          <li class="nav-item">
             <a href="#resume">Resume</a>
           </li>
         </ul>
@@ -113,7 +113,9 @@
                   <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Resume</a>
+                  <a class="nav-link" href="./docs/resume.pdf" target="_blank"
+                    >Resume</a
+                  >
                 </li>
               </ul>
             </div>
@@ -124,8 +126,8 @@
           <section id="about">
             <h2>ABOUT</h2>
             <div class="container">
-              <div style="background: #fff; padding: 10px;" class="row">
-                <div class="col-md-12" style="color: royalblue;">
+              <div class="row intro">
+                <div class="col-md-12" class="royalblue">
                   <h3>Hi, I am Akash,</h3>
                 </div>
                 <div class="col-md-12">
@@ -150,26 +152,9 @@
 
           <section id="experience">
             <h2>EXPERIENCE</h2>
-            <div
-              class="my-4"
-              style="
-                background: white;
-                width: 700px;
-                min-height: 300px;
-                margin: 10px auto;
-                box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-              "
-            >
+            <div class="my-4 exp-outer-card">
               <div class="container">
-                <div
-                  class="row"
-                  style="
-                    padding: 30px 0px 0px 30px;
-                    color: royalblue;
-                    font-size: 20px;
-                    font-weight: 500;
-                  "
-                >
+                <div class="row exp-inner-card">
                   <div class="col-lg-6">TechAhead</div>
                   <div class="col-lg-6">Associate Software Engineer</div>
                 </div>
@@ -196,26 +181,9 @@
               </div>
             </div>
 
-            <div
-              class="my-4"
-              style="
-                background: white;
-                width: 700px;
-                min-height: 300px;
-                margin: 10px auto;
-                box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-              "
-            >
+            <div class="my-4 exp-outer-card">
               <div class="container">
-                <div
-                  class="row"
-                  style="
-                    padding: 30px 0px 0px 30px;
-                    color: royalblue;
-                    font-size: 20px;
-                    font-weight: 500;
-                  "
-                >
+                <div class="row exp-inner-card">
                   <div class="col-lg-6">
                     LeewayHertz
                   </div>
@@ -242,25 +210,9 @@
               </div>
             </div>
 
-            <div
-              style="
-                background: white;
-                width: 700px;
-                min-height: 300px;
-                margin: 10px auto;
-                box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-              "
-            >
+            <div class="exp-outer-card">
               <div class="container">
-                <div
-                  class="row"
-                  style="
-                    padding: 30px 0px 0px 30px;
-                    color: royalblue;
-                    font-size: 20px;
-                    font-weight: 500;
-                  "
-                >
+                <div class="row exp-inner-card">
                   <div class="col-lg-6">Primotech</div>
                   <div class="col-lg-6">Web Development Intern</div>
                 </div>
@@ -296,15 +248,15 @@
                         />
                       </div>
                       <div class="card-back">
-                        <div style="margin-left: 35px; margin-top: 20px;">
+                        <div class="ml-35 mt-20">
                           <h4>GrubSnap</h4>
-                          <h6 style="color: black;">
+                          <h6 class="black">
                             (GrubSnap is an ecommerce web app for ordering food
                             and to register ourselves as Kitchen)
                           </h6>
                         </div>
                         <div>
-                          <h5 style="margin-left: 38px;">Accomplishments</h5>
+                          <h5 class="ml-38">Accomplishments</h5>
                           <ul>
                             <li>React Js, Redux, Bootstrap on frontend</li>
                             <li>Node Js, MySQL on backend</li>
@@ -330,15 +282,15 @@
                         />
                       </div>
                       <div class="card-back">
-                        <div style="margin-left: 35px; margin-top: 20px;">
+                        <div class="ml-35 mt-20">
                           <h4>RedAlert</h4>
-                          <h6 style="color: black;">
+                          <h6 class="black">
                             (RedAlert is a smart alerting platform for Tesla
                             vehicles)
                           </h6>
                         </div>
                         <div>
-                          <h5 style="margin-left: 38px;">Accomplishments</h5>
+                          <h5 class="ml-38">Accomplishments</h5>
                           <ul>
                             <li>
                               React Js, Context Api, Bootstrap on frontend
@@ -365,15 +317,15 @@
                         />
                       </div>
                       <div class="card-back">
-                        <div style="margin-left: 35px; margin-top: 20px;">
+                        <div class="ml-35 mt-20">
                           <h4>MailStake</h4>
-                          <h6 style="color: black;">
+                          <h6 class="black">
                             (MailStake find mails that we generally miss due to
                             change in our current address)
                           </h6>
                         </div>
                         <div>
-                          <h5 style="margin-left: 38px;">Accomplishments</h5>
+                          <h5 class="ml-38">Accomplishments</h5>
                           <ul>
                             <li>React Js, Redux, Material UI on frontend</li>
                             <li>Node Js, MongoDB on backend</li>
@@ -399,14 +351,14 @@
                         />
                       </div>
                       <div class="card-back">
-                        <div style="margin-left: 35px; margin-top: 20px;">
+                        <div class="ml-35 mt-20">
                           <h4>Ecommerce Website</h4>
-                          <h6 style="color: black;">
+                          <h6 class="black">
                             (Simple responsive ecommerce webapp)
                           </h6>
                         </div>
                         <div>
-                          <h5 style="margin-left: 38px;">Accomplishments</h5>
+                          <h5 class="ml-38">Accomplishments</h5>
                           <ul>
                             <li>Html, Css, Bootstrap on frontend</li>
                             <li>PHP, MySQL on backend</li>
@@ -429,15 +381,15 @@
                         />
                       </div>
                       <div class="card-back">
-                        <div style="margin-left: 35px; margin-top: 20px;">
+                        <div class="ml-35 mt-20">
                           <h4>Todo App</h4>
-                          <h6 style="color: black;">
+                          <h6 class="black">
                             (You can add items to this todo app. Hover on cards
                             to view your todo's and click to remove)
                           </h6>
                         </div>
                         <div>
-                          <h5 style="margin-left: 38px;">Accomplishments</h5>
+                          <h5 class="ml-38">Accomplishments</h5>
                           <ul>
                             <li>Html, Css, Vanilla JavaScript on frontend</li>
                             <li>Deployed on Github Pages</li>
@@ -455,24 +407,9 @@
 
           <section id="skills">
             <h2>SKILLS</h2>
-            <div
-              style="
-                background: white;
-                width: 900px;
-                min-height: 250px;
-                margin: 32px auto;
-                box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-              "
-            >
+            <div class="skills-card">
               <div class="container">
-                <div
-                  class="row"
-                  style="
-                    padding: 30px 0px 0px 30px;
-                    font-size: 20px;
-                    font-weight: 500;
-                  "
-                >
+                <div class="row ptl-30 fs-20 fw-500">
                   <div class="col-sm-12">HTML</div>
                 </div>
                 <div class="project-line"></div>
@@ -493,24 +430,9 @@
               </div>
             </div>
 
-            <div
-              style="
-                background: white;
-                width: 900px;
-                min-height: 250px;
-                margin: 32px auto;
-                box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-              "
-            >
+            <div class="skills-card">
               <div class="container">
-                <div
-                  class="row"
-                  style="
-                    padding: 30px 0px 0px 30px;
-                    font-size: 20px;
-                    font-weight: 500;
-                  "
-                >
+                <div class="row ptl-30 fs-20 fw-500">
                   <div class="col-sm-12">CSS</div>
                 </div>
                 <div class="project-line"></div>
@@ -527,24 +449,9 @@
               </div>
             </div>
 
-            <div
-              style="
-                background: white;
-                width: 900px;
-                min-height: 250px;
-                margin: 32px auto;
-                box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-              "
-            >
+            <div class="skills-card">
               <div class="container">
-                <div
-                  class="row"
-                  style="
-                    padding: 30px 0px 0px 30px;
-                    font-size: 20px;
-                    font-weight: 500;
-                  "
-                >
+                <div class="row ptl-30 fs-20 fw-500">
                   <div class="col-sm-12">JavaScript</div>
                 </div>
                 <div class="project-line"></div>
@@ -565,24 +472,9 @@
               </div>
             </div>
 
-            <div
-              style="
-                background: white;
-                width: 900px;
-                min-height: 250px;
-                margin: 32px auto;
-                box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-              "
-            >
+            <div class="skills-card">
               <div class="container">
-                <div
-                  class="row"
-                  style="
-                    padding: 30px 0px 0px 30px;
-                    font-size: 20px;
-                    font-weight: 500;
-                  "
-                >
+                <div class="row ptl-30 fs-20 fw-500">
                   <div class="col-sm-12">Back-End</div>
                 </div>
                 <div class="project-line"></div>
@@ -599,24 +491,9 @@
               </div>
             </div>
 
-            <div
-              style="
-                background: white;
-                width: 900px;
-                min-height: 250px;
-                margin: 32px auto;
-                box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-              "
-            >
+            <div class="skills-card">
               <div class="container">
-                <div
-                  class="row"
-                  style="
-                    padding: 30px 0px 0px 30px;
-                    font-size: 20px;
-                    font-weight: 500;
-                  "
-                >
+                <div class="row ptl-30 fs-20 fw-500">
                   <div class="col-sm-12">Other</div>
                 </div>
                 <div class="project-line"></div>
@@ -668,16 +545,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-6">
-                  <div
-                    style="
-                      background: white;
-                      width: 400px;
-                      min-height: 200px;
-                      margin: 10px auto;
-                      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-                      padding: 10px 0px 0px 10px;
-                    "
-                  >
+                  <div class="education">
                     <p class="teal fw-500">
                       Dr. A.P.J. Abdul Kalam Technical University
                     </p>
@@ -690,16 +558,7 @@
                 </div>
 
                 <div class="col-md-6">
-                  <div
-                    style="
-                      background: white;
-                      width: 400px;
-                      min-height: 200px;
-                      margin: 10px auto;
-                      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-                      padding: 10px 0px 0px 10px;
-                    "
-                  >
+                  <div class="education">
                     <p class="teal fw-500">Modern Academy</p>
                     <p class="brown fw-400">Indirapuram, Ghaziabad</p>
                     <ul>
@@ -712,16 +571,7 @@
 
               <div class="row">
                 <div class="col-md-6">
-                  <div
-                    style="
-                      background: white;
-                      width: 400px;
-                      min-height: 200px;
-                      margin: 10px auto;
-                      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-                      padding: 10px 0px 0px 10px;
-                    "
-                  >
+                  <div class="education">
                     <p class="teal fw-500">Modern Academy</p>
                     <p class="brown fw-400">Indirapuram, Ghaziabad</p>
                     <ul>
@@ -755,19 +605,24 @@
               <p>
                 <a
                   href="https://github.com/akashingole1"
+                  target="_blank"
                   data-toggle="tooltip"
                   data-placement="top"
                   title="View Akash on GitHub"
                   class="btn btn-primary mr-3"
                   ><i class="fab fa-github"></i
                 ></a>
-                <a href="https://github.com/akashingole1" class="fs-18 black"
+                <a
+                  href="https://github.com/akashingole1"
+                  target="_blank"
+                  class="fs-18 black"
                   >github.com/akashingole1</a
                 >
               </p>
               <p>
                 <a
                   href="https://www.linkedin.com/in/akash-ingole-6b8b6a141/"
+                  target="_blank"
                   data-toggle="tooltip"
                   data-placement="top"
                   title="View Akash on linkedin"
@@ -776,6 +631,7 @@
                 ></a>
                 <a
                   href="https://www.linkedin.com/in/akash-ingole-6b8b6a141/"
+                  target="_blank"
                   class="fs-18 black"
                   >linkedin.com/in/akash-ingole-6b8b6a141/</a
                 >
@@ -820,6 +676,13 @@
     <script>
       $(document).ready(function () {
         $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+
+    <script>
+      $(".nav-item").click(function (e) {
+        $(this).addClass("active");
+        $(".nav-item").not($(this)).removeClass("active");
       });
     </script>
   </body>

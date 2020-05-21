@@ -226,6 +226,9 @@ ul.CTAs a {
 .black {
   color: black;
 }
+.royalblue {
+  color: royalblue;
+}
 .fw-500 {
   font-weight: 500;
 }
@@ -240,6 +243,56 @@ ul.CTAs a {
 }
 p > a:hover {
   text-decoration: underline;
+}
+.pd-40 {
+  padding: 40px 40px;
+}
+.ptl-30 {
+  padding: 30px 0px 0px 30px;
+}
+.ml-38 {
+  margin-left: 38px;
+}
+.ml-35 {
+  margin-left: 35px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.br-50 {
+  border-radius: 50%;
+}
+.intro {
+  background: #fff;
+  padding: 10px;
+}
+.exp-outer-card {
+  background: white;
+  width: 700px;
+  min-height: 300px;
+  margin: 10px auto;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.exp-inner-card {
+  padding: 30px 0px 0px 30px;
+  color: royalblue;
+  font-size: 20px;
+  font-weight: 500;
+}
+.skills-card {
+  background: white;
+  width: 900px;
+  min-height: 250px;
+  margin: 32px auto;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.education {
+  background: white;
+  width: 400px;
+  min-height: 200px;
+  margin: 10px auto;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  padding: 10px 0px 0px 10px;
 }
 /* ---------------------------------------------------
     MEDIAQUERIES
